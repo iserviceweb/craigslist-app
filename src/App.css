@@ -1,0 +1,41 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+/* Header component styling */
+
+header {
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 8fr;
+}
+
+header h1 {
+  padding: 0.2em;
+}
+
+.title__container {
+  display: flex;
+  color: #00e;
+  align-items: center;
+}
+
+.cl__logo {
+  color: blueviolet;
+  margin-right: 10px;
+  display: flex;
+}
+
+/* ListingContainer styling */
