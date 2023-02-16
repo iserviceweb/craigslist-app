@@ -11,7 +11,7 @@ body {
   font-weight: 200;
 }
 
-/* Header component styling */
+/* Header styling */
 
 header {
   background: #eee;
@@ -39,3 +39,120 @@ header h1 {
 }
 
 /* ListingContainer styling */
+
+
+main{
+  max-width:auto;
+  margin: 0 auto;
+}
+
+.cards{
+  display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+
+
+}
+
+
+/* ListingCard styling */
+
+.card {
+  margin: .5rem;
+  /* box-shadow: 0 0 7px 0 #ddd; */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 275px;
+  box-shadow: -1px -2px 15px -1px rgba(0, 0, 0, 0.144);
+}
+
+.card .image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.card .image img {
+  max-height: 250px;
+}
+
+.card .image .price {
+  background-color: #fff;
+  border: none;
+  position: absolute;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  top: 0;
+  left: 0;
+  padding: .25rem;
+  color: rgba(0, 153, 0, 0.797);
+  font-weight: 200;
+}
+
+.card .details {
+  padding: 0.5rem;
+  color: rgba(102, 102, 102, 0.692);
+}
+
+.card .details p {
+  font-size: 1rem;
+  color: #00e;
+}
+
+.card .details :nth-child(2) {
+  font-size: .9rem;
+  color: rgba(102, 102, 102, 0.692);
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+/* |||||||||| emoji ||||||||||*/
+
+.sub_details {
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.emoji__btn {
+  border: none;
+  background: none;
+  padding: 0 0.25rem;
+  cursor: pointer;
+}
+
+.star {
+  text-shadow:0 0 rgba(102, 102, 102, 0.692);
+  font-size: 1.012rem;
+  color:transparent;
+}
+
+.active > .star{
+  color: gold;
+  cursor: pointer;
+}
+
+.delete {
+  display: flex;
+  flex-grow: 2;
+  justify-content: flex-end;
+}
+
+
+.trash{
+font-size: .9rem;
+color: rgba(102, 102, 102, 0.443);
+/* font-weight: bolder; */
+}
+
+.trash:hover{
+  color:rgba(178, 34, 34, 0.737);
+}
