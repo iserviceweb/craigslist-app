@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // import placeholder from "../assets/placeholder.png";
-
+import { FaTrashAlt } from 'react-icons/fa'
 function ListingCard({ listing, onDeleteListing }) {
   const { id, description, price, location, image } = listing;
   const [isFavorite, setFavorite] = useState(false);
@@ -43,7 +43,7 @@ function ListingCard({ listing, onDeleteListing }) {
           )}
           <p>{location}</p>
           <button onClick={handleDelete} className="emoji__btn delete">
-            🗑️{" "}
+            <FaTrashAlt className="trash" />{" "}
           </button>
         </div>
       </div>
