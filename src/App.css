@@ -41,18 +41,18 @@ header h1 {
 /* ListingContainer styling */
 
 
-main{
-  max-width:auto;
+main {
+  max-width: auto;
   margin: 0 auto;
 }
 
-.cards{
+.cards {
   display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 20px;
-    list-style: none;
-    flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px;
+  list-style: none;
+  flex-wrap: wrap;
 
 
 }
@@ -130,12 +130,12 @@ main{
 }
 
 .star {
-  text-shadow:0 0 rgba(102, 102, 102, 0.692);
+  text-shadow: 0 0 rgba(102, 102, 102, 0.692);
   font-size: 1.012rem;
-  color:transparent;
+  color: transparent;
 }
 
-.active > .star{
+.active>.star {
   color: gold;
   cursor: pointer;
 }
@@ -147,12 +147,107 @@ main{
 }
 
 
-.trash{
-font-size: .9rem;
-color: rgba(102, 102, 102, 0.443);
-/* font-weight: bolder; */
+.trash {
+  font-size: .9rem;
+  color: rgba(102, 102, 102, 0.443);
+  /* font-weight: bolder; */
 }
 
-.trash:hover{
-  color:rgba(178, 34, 34, 0.737);
+.trash:hover {
+  color: rgba(178, 34, 34, 0.737);
+}
+
+/* |||||||||| Searchbar |||||||||| */
+
+.search__bar {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  justify-content: flex-end;
+}
+
+.search__bar input {
+  width: 90%;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  height: 2rem;
+  border-radius: 3px;
+  padding-left: 0.9rem;
+  margin-right: 0.5rem;
+}
+
+input:focus {
+  background-color: #ffc;
+  outline: none;
+}
+
+.search__bar button {
+  height: 2rem;
+  padding: 0 0.50rem;
+  color: blue;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.search__bar button:active {
+  border-color: gold;
+}
+
+
+/* ||||||| footer ||||||||| */
+
+.copyright {
+  --private-red: #C94D3F;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  color: #222;
+  font-size: 80%;
+}
+
+.bd-anchor {
+  --private-red: #C94D3F;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 1em;
+  margin: .15em;
+  border: 0 solid #5a739b;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px;
+  color: #551A8B;
+  font-size: 13px;
+}
+
+.label {
+  cursor: pointer;
+  font-size: 1rem;
+  display: inline-block;
+  color: #00E;
+  padding: 0;
+}
+
+footer {
+  font-weight: 400;
+  color: #222;
+  background-color: #eee;
+  border: 1px #ccc solid;
+  font-size: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+
 }
