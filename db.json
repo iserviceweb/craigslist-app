@@ -1,0 +1,130 @@
+{
+  "listings": [
+    {
+      "id": 2,
+      "description": "Dumbbell Set",
+      "price": 20,
+      "image": "https://i.pinimg.com/originals/6f/a8/54/6fa85467945fe33473f04fc18b2200db.jpg",
+      "location": "Greenpoint"
+    },
+    {
+      "id": 3,
+      "description": "3x3 Rubik's Cube",
+      "price": 2,
+      "image": "https://preview.redd.it/qww5obh3d7101.jpg?auto=webp&s=8bb32e43c7ad022f3d6d308b2762d22fbaad0d58",
+      "location": "Bay Ridge"
+    },
+    {
+      "id": 4,
+      "description": "Acoustic guitar",
+      "price": 150,
+      "image": "https://i.ebayimg.com/images/g/ClYAAOSwy4NhGC97/s-l500.jpg",
+      "location": "Flatlands"
+    },
+    {
+      "id": 5,
+      "description": "Skateboard ",
+      "price": 50,
+      "image": "https://i.pinimg.com/originals/16/d1/39/16d139783f9ed3b3a04506812dd1e9c1.jpg",
+      "location": "Bushwick"
+    },
+    {
+      "id": 6,
+      "description": "Toaster",
+      "price": 30,
+      "image": "https://www.thespruceeats.com/thmb/aNgmt6LPEqd-P6U5APSFnCgukh0=/1000x1000/filters:no_upscale():max_bytes(150000):strip_icc()/Cuisinart_4_Slice_Toaster_Hero5x4-7cdbb729ad394ee58efb23a168df711d.jpg",
+      "location": "Flatbush"
+    },
+    {
+      "id": 7,
+      "description": "Women ice Skates sz-9",
+      "price": 80,
+      "image": "https://i.ebayimg.com/images/g/S04AAOSwyydik34c/s-l1600.jpg",
+      "location": "Gravesend"
+    },
+    {
+      "id": 9,
+      "description": "Logitech 1080p Camera",
+      "price": 55,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Logicool_StreamCam_%28cropped%29.jpg",
+      "location": "RedHook"
+    },
+    {
+      "id": 10,
+      "description": "SNES bundle console",
+      "price": 90,
+      "image": "https://i.ebayimg.com/images/g/kGwAAOSwwnBgptMD/s-l500.jpg",
+      "location": "Downtown Brooklyn"
+    },
+    {
+      "id": 11,
+      "description": "Dobsonian Telescope",
+      "price": 450,
+      "image": "http://www.caasastro.org/wp-content/uploads/2017/03/cid_EDA283EC-FB82-4680-ACF2-6301CC9D8810@gateway_pace.jpg",
+      "location": "Ocean Parkway"
+    },
+    {
+      "id": 12,
+      "description": "PS4 Games",
+      "price": 60,
+      "image": "https://i.pinimg.com/originals/4e/fb/eb/4efbebe54c20e8fd02f7f6f67eb65fda.jpg",
+      "location": "Brownsville"
+    },
+    {
+      "id": 13,
+      "description": "Nike LeBron XIX",
+      "price": 200,
+      "image": "https://images.footlocker.com/is/image/EBFL2/Z0203003_a1?wid=520&hei=520&fmt=png-alpha",
+      "location": "Upper East Brooklyn"
+    },
+    {
+      "id": 14,
+      "description": "Hoverboard",
+      "price": 50,
+      "image": "https://images.offerup.com/1_PC3SOniLayomowNm0jQyuxqeA=/250x250/fec6/fec6289094c54d1c9951562e171109dc.jpg",
+      "location": "Westside Brooklyn"
+    },
+    {
+      "id": 15,
+      "description": "Prince Tennis Racket",
+      "price": 35,
+      "image": "https://i.ebayimg.com/images/g/QwMAAOSwt7FjSCSB/s-l1600.jpg",
+      "location": "Downtown Brooklyn"
+    },
+    {
+      "id": 16,
+      "description": "Sony Alpha 6000",
+      "price": 700,
+      "image": "https://di2ponv0v5otw.cloudfront.net/posts/2022/10/15/634b672effb5d013858e0296/m_wp_634b678a58083d7545211755.webp",
+      "location": "Brooklyn Heights"
+    },
+    {
+      "id": 17,
+      "description": "Snowboard Goggles",
+      "price": 70,
+      "image": "https://image.geartrade.com//userthumbs/x/R/xR9F5TF7fDyyCNizQEvEKekXVdOTfEIrBoKgEDbFthumb.webp",
+      "location": "Greenpoint"
+    },
+    {
+      "id": 18,
+      "description": "Tron Legacy Blue-ray",
+      "price": 12,
+      "image": "https://i.ebayimg.com/images/g/ctYAAOSwlOJfv0Xv/s-l500.jpg",
+      "location": "Prospect Park"
+    },
+    {
+      "id": 19,
+      "description": "Technics SL-1200LTD Turntable",
+      "price": 8999,
+      "image": "https://assets.catawiki.nl/assets/2020/5/29/9/8/b/98b5d3d4-c030-4a85-977d-3df2e610f5e5.jpg",
+      "location": "Willamsburg"
+    },
+    {
+      "id": 20,
+      "description": "Merrell Mens Hiking Boots Size 11",
+      "price": 53,
+      "image": "https://i.ebayimg.com/images/g/ayUAAOSw7nJjsLZL/s-l1600.jpg",
+      "location": "Canarsie"
+    }
+  ]
+}
