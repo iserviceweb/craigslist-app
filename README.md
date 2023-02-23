@@ -25,7 +25,8 @@ Learning Goals:
 - we used the `sort` function sorts the `filteredListings` array based on the sort criteria specified in the sortBy variable. If the `sortBy` value is "id", the function sorts the listings based on their id property in ascending order. Otherwise, it sorts the listings based on the `location` property using the `localeCompare` method, which compares the two strings based on their alphabetical order in the current locale.
 - we created a `handleErrorImage` function when an error occurs while loading the image in the img element. It updates the component's error state to true, which causes a statick fallback image to be displayed instead of the original image from the database. The `onError` event handler on the img element triggers this function when it detects an error. we purposefully made some errors on a couple image urls to display the fallback image of the following... <br>
 <img src="src/assets/placeholder.png" style="border-radius:5px" width="25%">
-## Finally 
+
+### Finally 
 - In our `ListingsContainer` we added a `toLowerCase` method on both the description and search strings to ensure that the comparison is case-insensitive. If the description property contains the search term, the listing is included in the new filtered array. Otherwise, it is excluded.
 
 
