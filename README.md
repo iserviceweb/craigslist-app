@@ -15,14 +15,18 @@ Learning Goals:
 
 <br>
 
-# Session 02: App progress
+# Session 03: App progress
 
-<img src="src/assets/session-02.png"  style="border-radius:5px" width="65%">
+<img src="src/assets/demo.gif"  style="border-radius:5px" width="65%">
 
-- The listings.map function is used to create an array of ListingCard components by iterating over the listings array and transforming each listing object into a ListingCard component with the key, listing, and onDeleteListing props. The resulting listingCards array is then rendered in the JSX returned from the ListingContainer component using curly braces and the div element.
-- In a RESTful API that follows the CRUD architecture, deleting a resource typically involves sending a DELETE request to the resource's URL, which usually includes the resource's ID as a parameter or in the URL path. In the case of the JSON server, the URL for deleting a specific listing would be something like http://localhost:3000/listings/:id, where :id is the ID of the listing to be deleted. When a successful DELETE request is made to this endpoint, the JSON server will respond with an empty object {} indicating that the resource has been successfully deleted from the server. You can use this response to confirm that the resource has been deleted and update the state of your application accordingly.
-- In ListingContainer component we created a handleDelete function to remove a listing with a particular ID from an array of listings, we created a new array that excludes the listing with the given ID using the filter method. Then, update the state of the listings array using the setListings function to trigger a re-render with the updated array.
-- By passing a reference to the onDeleteListing function as a prop to the child ListingCard component and calling it with the ID of the listing that was successfully deleted, the parent ListingContainer component can access the ID of the deleted listing and perform any necessary updates to the state of the listings array or other components. In this way, the onDeleteListing function serves as a callback that allows the child ListingCard component to communicate with its parent ListingContainer component and pass data from the child to the parent.
+- The Search component renders a search bar with an input field and a submit button. It uses the useState hook to update the state of the search term as the user types. When the submit button is clicked, it triggers a custom `handleSubmit` function that calls a prop function called `onSearch` and passes the `currentSearch` term as an argument. The `onSearch` function is expected to handle the search logic.
+- In App.js we renders a `Header` component, and the `ListingsContainer` component for listings, and a footer. It uses the useState hook to keep track of the search term as the user types. The `handleSearch` function is passed to the `Header` component as a prop, and it updates the `search` state with the new search term.
+### Bonus 
+- we used the `sort` function sorts the `filteredListings` array based on the sort criteria specified in the sortBy variable. If the `sortBy` value is "id", the function sorts the listings based on their id property in ascending order. Otherwise, it sorts the listings based on the `location` property using the `localeCompare` method, which compares the two strings based on their alphabetical order in the current locale.
+- we created a `handleErrorImage` function when an error occurs while loading the image in the img element. It updates the component's error state to true, which causes a statick fallback image to be displayed instead of the original image from the database. The `onError` event handler on the img element triggers this function when it detects an error. we purposefully made some errors on a couple image urls to display the fallback image of the following... <br>
+<img src="src/assets/placeholder.png" style="border-radius:5px" width="25%">
+## Finally 
+- In our `ListingsContainer` we added a `toLowerCase` method on both the description and search strings to ensure that the comparison is case-insensitive. If the description property contains the search term, the listing is included in the new filtered array. Otherwise, it is excluded.
 
 
 # How to get started
@@ -33,11 +37,11 @@ As a reference, you can take a look at the code after the end of each session.
 <br>
 
 # User Stories:
-- npx create-react-app
-- install npm json server
-- create db.json file add the keys value pairs, e.g, id, description, image, location, price
-- fetch listings & console.log the data.
-- refer to session 01 to continue...
+- Create Search component
+- Build controlled form
+- create a function in App to pass down to search
+- add a filter function & use it in our map function to see results. 
+- pass the props to Search and Header respectively. 
 
 ### 🚀 Resources
 

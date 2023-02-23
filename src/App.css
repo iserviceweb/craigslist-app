@@ -251,3 +251,78 @@ footer {
   align-items: center;
 
 }
+
+/*  |||||| sort buttons  |||||||*/
+.side_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  list-style: none;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.sort_btn {
+  height: 2rem;
+  padding: 0 0.50rem;
+  color: blue;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 0.5em 0;
+  display: flex;
+  align-items: center;
+  width: 8.5rem;
+  font-size: 1.2em;
+}
+
+.form_label {
+  font-size: 11.7px;
+  margin: inherit;
+  text-transform: uppercase
+}
+
+.icons {
+  font-size: 1em;
+  color: #00E;
+  cursor: pointer;
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  background-image: none;
+  display: inherit;
+  height: auto;
+  width: auto;
+  vertical-align: inherit;
+  padding-right: 8px;
+}
+
+.add_form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 1em;
+}
+
+.add_btn {
+  font-size: 1em;
+  color: #00E;
+  cursor: pointer;
+  background: white;
+  height: 2rem;
+  padding: 0 0.50rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.main_ui {
+  padding: 1rem;
+  display: grid;
+  align-items: start;
+  justify-content: start;
+  grid-template-columns: 1fr 8fr;
+
+}

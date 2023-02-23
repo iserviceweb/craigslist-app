@@ -1,10 +1,16 @@
 import React, { useState } from 'react'
-// import placeholder from "../assets/placeholder.png";
+import placeholder from "../assets/placeholder.png";
 import { FaTrashAlt } from 'react-icons/fa'
 function ListingCard({ listing, onDeleteListing }) {
   const { id, description, price, location, image } = listing;
   const [isFavorite, setFavorite] = useState(false);
   
+
+   const [error, setError] = useState(false);
+
+   const handleErrorImage = () => {
+     setError(true);
+   };
 
   const toggleFavorite = () => {
     setFavorite(!isFavorite);
@@ -27,7 +33,11 @@ function ListingCard({ listing, onDeleteListing }) {
         <p>
           <span className="price">${price}</span>
         </p>
-        <img src={image} alt="placeholder" />
+        {error ? (
+          <img src={placeholder} alt="fallback" />
+        ) : (
+          <img onError={handleErrorImage} src={image} alt="main" />
+        )}
       </div>
       <div className="details">
         <p>{description}</p>
