@@ -35,7 +35,12 @@ As a reference, you can take a look at the code after the end of each session.
 - install npm json server
 - create db.json file add the keys value pairs, e.g, id, description, image, location, price
 - fetch listings & console.log the data.
-- refer to session 02 to continue...
+
+# branch details:
+- main branch | has the fetch function & data retrieveal some basic css
+- session-2 branch | renders child components, like functionality, delete funcntion using DELETE network request, and more css.
+- session-3 branch | search feature, bonus sorting feature by object id or by location, and more css. 
+- development branch | has everything. 
 
 ### 🚀 Resources
 
