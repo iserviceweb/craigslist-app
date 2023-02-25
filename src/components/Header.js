@@ -1,5 +1,6 @@
 import React from 'react'
 import "../App.css"
+import Search from './Search'
 
 
 function Header({onSearch}) {
@@ -11,7 +12,7 @@ function Header({onSearch}) {
         </div>
         Craigslist
       </h1>
-      {/* Search.js component goes here */}
+      <Search onSearch={onSearch} />
       
    </header>
   )
