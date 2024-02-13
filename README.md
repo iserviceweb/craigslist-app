@@ -44,7 +44,6 @@ As a reference, you can take a look at the code after the end of each session.
 
 ### 🚀 Resources
 
-- RadicalX Web Dev Bootcamp for video resources and interacting with the community: [Link Here ➡️](https://www.community.radicalx.co/spaces/8972871/content)
 - W3Schools React - [Link Here ➡️](https://www.w3schools.com/REACT/DEFAULT.ASP)
 - NPM Json Server - [Link Here ➡️](https://www.npmjs.com/package/json-server)
 - MDN JSON Format - [Link Here ➡️](<https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON#:~:text=JavaScript%20Object%20Notation%20(JSON)%20is,page%2C%20or%20vice%20versa>)
